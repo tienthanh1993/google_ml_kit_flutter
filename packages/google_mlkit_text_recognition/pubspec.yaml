@@ -11,8 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_mlkit_commons: ^0.11.0
-
+  google_mlkit_commons:
+    git:
+      url: https://github.com/flutter-ml/google_ml_kit_flutter.git
+      ref: f3397499e96eb9901f7d259a13fb1521b03d992f
+      path: packages/google_mlkit_commons
 dev_dependencies:
   flutter_test:
     sdk: flutter
